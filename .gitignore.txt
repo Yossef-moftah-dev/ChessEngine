@@ -1,0 +1,7 @@
+.vs/
+bin/
+build/
+out/
+.ideas/
+CMakeSettings.json
+rand.txt
