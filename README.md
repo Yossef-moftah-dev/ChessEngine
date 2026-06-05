@@ -9,9 +9,11 @@ phase 1 : Minimum Viable Chess Engine:
 4- Minimax search (simple depth-limited)
 5- A CLI that plays moves
 
+'''
 ChessEngine/src/
 ├── board.cpp         // Board state & move representation
 ├── movegen.cpp       // Generate legal moves
 ├── evaluation.cpp    // Score positions
 ├── search.cpp        // Minimax/alphabeta
 └── main.cpp          // CLI interface
+'''
