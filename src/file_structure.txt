@@ -1,0 +1,10 @@
+ChessEngine
+    bench.h
+    test.h
+    uci.h
+    evaluation.h
+    tablebases.h
+    datagen.h
+    evaluationClassical2.h
+    magics.h
+
