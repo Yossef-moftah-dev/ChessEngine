@@ -8,3 +8,12 @@ ChessEngine
     evaluationClassical2.h
     magics.h
 
+constants.h
+    types.h
+    bits.h
+
+bits.h
+    types.h
+
+error.h
+types.h
