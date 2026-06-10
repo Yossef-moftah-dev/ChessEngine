@@ -6,4 +6,4 @@ build/
 out/
 .ideas/
 CMakeSettings.json
-rand.txt
+src/file_structure.txt
