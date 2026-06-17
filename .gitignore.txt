@@ -7,4 +7,3 @@ out/
 .ideas/
 CMakeSettings.json
 src/file_structure.txt
-src/0practice.cpp
