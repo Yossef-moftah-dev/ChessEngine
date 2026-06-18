@@ -10,7 +10,7 @@ constexpr Bitboard GetBitBoard(const Position position){
 
 // ?
 constexpr Position BitScanForward(const Bitboard bitboard){
-	return static_cast<Position>(std::__countr_zero(bitboard));
+	return static_cast<Position>(std::countr_zero(bitboard));
 }
 
 // ?
@@ -31,5 +31,5 @@ constexpr Bitboard ReverseBits(Bitboard bitboard){
 
 // ?
 constexpr uint8_t PopCount(const Bitboard bitboard){
-    return static_cast<uint8_t>(std::__popcount(bitboard));
+    return static_cast<uint8_t>(std::popcount(bitboard));
 }
