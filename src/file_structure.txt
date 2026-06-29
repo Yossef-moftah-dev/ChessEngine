@@ -49,16 +49,16 @@ zobrist.h
 random.h
     common.h
 
-common.h
-    constants.h
-    bits.h
-    error.h
-
 move.h
     common.h
 
 evaluation.h
     evaluationClassical2.h
+
+common.h
+    constants.h
+    bits.h
+    error.h
 
 constants.h
     types.h
