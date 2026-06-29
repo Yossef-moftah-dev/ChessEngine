@@ -1,12 +1,64 @@
 ChessEngine
     bench.h
-    test.h
+    tests.h
     uci.h
     evaluation.h
     tablebases.h
     datagen.h
     evaluationClassical2.h
     magics.h
+
+tests.h
+    board.h
+    common.h
+    fen.h
+    magics.h
+    see.h
+    movegen.h
+    tablebases.h
+    zobrist.h
+    evaluation.h
+
+tablebases.h
+    board.h
+    movegen.h
+
+evaluationClassical2.h
+    common.h
+    evalbase.h
+    board.h
+    magics.h
+
+magics.h
+    common.h
+    constants.h
+
+evalbase.h
+    common.h
+    board.h
+
+board.h
+    common.h
+    move.h
+    zobrist.h
+
+zobrist.h
+    constants.h
+    random.h
+
+random.h
+    common.h
+
+common.h
+    constants.h
+    bits.h
+    error.h
+
+move.h
+    common.h
+
+evaluation.h
+    evaluationClassical2.h
 
 constants.h
     types.h
@@ -16,4 +68,4 @@ bits.h
     types.h
 
 error.h
-types.h
+types.h 
