@@ -6,5 +6,4 @@ build/
 out/
 .ideas/
 CMakeSettings.json
-file_structure.txt
 src/file_structure.txt

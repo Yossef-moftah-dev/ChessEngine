@@ -37,15 +37,6 @@ evalbase.h
     common.h
     board.h
 
-board.h
-    common.h
-    move.h
-    zobrist.h
-
-zobrist.h
-    constants.h
-    random.h
-
 random.h
     common.h
 
@@ -54,6 +45,38 @@ move.h
 
 evaluation.h
     evaluationClassical2.h
+
+uci.cpp
+    uci.h
+    bench.h
+    datagen.h
+    displaysearch.h
+    perft.h
+
+uci.h
+    search.h
+    fen.h
+
+fen.cpp
+    fen.h
+    common.h
+    zobrist.h
+
+fen.h
+    board.h
+
+board.cpp
+    board.h
+    zobrist.h
+
+board.h
+    common.h
+    move.h
+    zobrist.h
+
+zobrist.h
+    constants.h
+    random.h
 
 common.h
     constants.h
@@ -69,4 +92,3 @@ bits.h
 
 error.h
 types.h
-
